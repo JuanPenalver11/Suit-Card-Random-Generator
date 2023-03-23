@@ -1,1 +1,61 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.cardHolder {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 90px;
+  margin-left: 100px;
+}
+
+#card {
+  background-color: #e2b9b9;
+  width: 400px;
+  height: 600px;
+  border-radius: 10%;
+  /* position: absolute; */
+  /* top: 70px;
+  left: 525px; */
+  border: 2px black solid;
+  margin-left: 5px;
+}
+
+.top-card {
+  width: 400px;
+  height: 50px;
+}
+.body-card {
+  width: 400px;
+  height: 400px;
+}
+.button-card {
+  width: 400px;
+  height: 50px;
+}
+#icon-top {
+  display: flex;
+  justify-content: left;
+  font-size: 100px;
+  padding-left: 20px;
+  color: black solid;
+}
+
+#icon-bottom {
+  display: flex;
+  justify-content: right;
+  font-size: 100px;
+  padding-right: 20px;
+  color: black solid;
+}
+
+#number {
+  display: flex;
+  justify-content: center;
+  font-size: 300px;
+  font-family: "Times New Roman", Times, serif;
+  color: black solid;
+}
+#btn {
+  position: fixed;
+  left: 650px;
+  top: 20px;
+}
